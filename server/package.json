@@ -1,0 +1,21 @@
+{
+  "name": "mairabackend",
+  "version": "0.0.1",
+  "description": "BackendWeb",
+  "main": "index.js",
+  "author": "Maira",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.1",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.2",
+    "global": "^4.4.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.3",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
